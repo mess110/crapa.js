@@ -12,6 +12,21 @@ Simple JS error reporting for https://json.northpole.ro
 
 ## Getting started
 
+To create an API_KEY and SECRET:
+
+```
+crapa.register('apiKey', 'secret');
+```
+
+If you already have one:
+
+```
+crapa.init('apiKey', 'secret')
+```
+
+Both these commands will start a listener which catches all the errors
+and sends them to https://json.northpole.ro
+
 ## Scripts
 
 * `npm run build` - produces production version of your library under the `lib` folder
